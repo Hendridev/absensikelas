@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 10rem 2rem;
+    background-color: rgb(48, 177, 236);
+}
+
+html {
+    text-align: center;
+    scroll-behavior: smooth;
+    font-size: 10px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.wrapper {
+    background-color: rgb(41, 37, 37);
+    height: 300px;
+}
+
+h1 {
+    padding: 2rem;
+    color: white;
+}
+
+#nama {
+    font-size: 1.1;
+    width: 110px;
+    height: 25px;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#hari {
+    border: none;
+    width: 110px;
+    height: 25px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1rem;
+}
+
+#jam {
+    border: none;
+    font-size: 1.1rem;
+    width: 110px;
+    height: 25px;
+}
+
+label {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    background-color: rgb(148, 148, 148);
+    color: white;
+    margin: 0 2rem;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 1.5rem;
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: gold;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+input {
+    text-align: center;
+}
+
+placeholder {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
